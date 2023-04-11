@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap');
+
+/*
+*CSS Reset
+*/
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*
+*#FFFFFF - Branco (Background)
+*#1B1E1D - Preto (Menus e fonte)
+*#E0E0E0 - Cinza claro (Detalhes)
+*#0757EB - Azul Claro (Destaque)
+*#F4EBE0 - Bege (Flutuantes)
+*/
+
+header {
+
+    color: #FFFFFF;
+    background-color: #1B1E1D;
+    padding: 1em;
+    text-align: center;
+
+}
+
+header h1 {
+    
+    font-size: 2em;
+    
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #1B1E1D;
+    color: #E0E0E0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.links {
+
+    min-width: 50%;
+    border-style: solid;
+    border-top-width: 0.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+
+}
+
+.links a {
+
+    color: #E0E0E0;
+    text-decoration: none;
+    padding-left: 0.3em;
+    border-left: solid 0.1em;
+    border-bottom: none 0em;
+
+}
+
+.links a:hover {
+
+    color: #C2C2C2;
+
+}
+
+.links a:first-child {
+
+    border-left: none;
+
+}
