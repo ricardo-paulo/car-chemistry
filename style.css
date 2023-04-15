@@ -119,26 +119,35 @@ li {
 
     width: 60%;
     margin-top: 8%;
-    border-style: hidden;
     border-radius: 1em;
-
-}
-
-.logo {
-
-    margin-top: 0.5em;
 
 }
 
 footer {
 
+    display: flex;
+    align-items: center;
     background-color: #1B1E1D;
     position: relative;
     height: 3.5em;
     width: 100%;
     bottom: 0;
     left: 0;
+    color: #FFFFFF;
+    justify-content: space-between;
 
+} 
+
+footer p {
+
+    width: fit-content;
+    margin-right: 1em;
+
+}
+
+footer img {
+
+    margin-left: 1em;
 
 }
 
