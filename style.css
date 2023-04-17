@@ -11,6 +11,7 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -78,5 +79,95 @@ nav {
 .links a:first-child {
 
     border-left: none;
+
+}
+
+main {
+
+    margin: 3.5em 0;
+
+}
+
+main p {
+
+    margin: 1em 2em;
+    text-align: center;
+
+}
+
+main h2 {
+
+    font-size: 1.5em;
+
+}
+
+.combustao, .eletrico {
+
+    width: 50%;
+    text-align: center;
+    line-height: 1.8em;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+.cars {
+
+    width: 60%;
+    margin-top: 8%;
+    border-radius: 1em;
+
+}
+
+footer {
+
+    display: flex;
+    align-items: center;
+    background-color: #1B1E1D;
+    position: relative;
+    height: 3.5em;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #FFFFFF;
+    justify-content: space-between;
+
+} 
+
+footer p {
+
+    width: fit-content;
+    margin-right: 1em;
+
+}
+
+footer img {
+
+    margin-left: 1em;
+
+}
+
+.sub {
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sub p {
+
+    text-align: start;
+
+}
+
+.inject {
+
+    width: 45%;
+    margin: 2%;
 
 }
