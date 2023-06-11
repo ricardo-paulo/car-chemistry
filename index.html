@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4 Rodas - Química</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <header class="container-fluid">
 
         <h1>QUÍMICA APLICADA A CARROS</h1>
 
     </header>
 
-    <nav>
-        <div class="links">
+    <nav class="navbar navbar-expand-lg">
+        <div class="links m-auto w-50">
 
-            <a href="https://ricardo-paulo.github.io/car-chemistry/" target="_blank" rel="noopener noreferrer">Home</a>
-            <a href="https://ricardo-paulo.github.io/car-chemistry/html/combustao.html" target="_blank" rel="noopener noreferrer">Combustão</a> 
-            <a href="https://ricardo-paulo.github.io/car-chemistry/html/eletricos.html" target="_blank" rel="noopener noreferrer">Elétricos</a>
+            <a class="navbar-brand col-1" href="https://ricardo-paulo.github.io/car-chemistry/" target="_blank" rel="noopener noreferrer">Home</a>
+            <a class="navbar-brand col-1" href="https://ricardo-paulo.github.io/car-chemistry/html/combustao.html" target="_blank" rel="noopener noreferrer">Combustão</a> 
+            <a class="navbar-brand col-1" href="https://ricardo-paulo.github.io/car-chemistry/html/eletricos.html" target="_blank" rel="noopener noreferrer">Elétricos</a>
 
         </div>
     </nav>
 
-    <main>
+    <main class="container me-auto mt-lg-5 mt-sm-2 mb-lg-5 mb-sm-2 text-center">
 
         <p>
 
@@ -37,12 +39,12 @@
 
         <br> <br>
 
-        <div style="display: flex;">
+        <div class="container text-center row row-cols-lg-2 row-cols-sm-1">
 
-            <div class="combustao">
+            <div class="combustao col-6">
     
                 <h2>Combustão</h2> <br>
-                <ul>
+                <ul class="list-unstyled">
 
                     <li>São alvo dos entusiastas</li>
                     <li>Consomem combustível não renovável</li>
@@ -51,14 +53,14 @@
 
                 </ul>
 
-                <img class="cars" src="https://p.turbosquid.com/ts-thumb/lT/1F9H68/gpW15tGZ/toyotasupra/png/1595557301/1920x1080/fit_q99/e65672482e6c4745bcba49baf12dd3a468c5828a/toyotasupra.jpg" alt="supra" width="70%">
+                <img class="rounded-4 img-fluid" src="https://p.turbosquid.com/ts-thumb/lT/1F9H68/gpW15tGZ/toyotasupra/png/1595557301/1920x1080/fit_q99/e65672482e6c4745bcba49baf12dd3a468c5828a/toyotasupra.jpg" alt="supra">
     
             </div>
     
-            <div class="eletrico">
+            <div class="eletrico col-6">
     
                 <h2>Elétrico</h2> <br>
-                <ul>
+                <ul class="list-unstyled">
 
                     <li>Não possuem tantos adeptos</li>
                     <li>Consomem Energia Renovável</li>
@@ -67,25 +69,29 @@
 
                 </ul>
 
-                <img class="cars" src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/01/Tesla-Model-S-2021-5.jpeg?quality=70&strip=info" alt="tesla">
+                <img class="rounded-4 img-fluid" src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/01/Tesla-Model-S-2021-5.jpeg?quality=70&strip=info" alt="tesla">
     
             </div>
 
         </div>
 
-        <p>
+        <p class="mt-3">
 
-            Na barra de navegação há o link para 3 tipos de carros que destacam-se: Combustão, Elétricos e Híbridos.
+            Na barra de navegação há o link para 3 tipos de carros que destacam-se: Combustão e Elétricos.
             
         </p>
+
+        <br>
+
+        <a class="text-black" href="https://ricardo-paulo.github.io/car-chemistry/html/sobre.html" target="_blank" rel="noopener noreferrer">Mais sobre o projeto</a>
 
     </main>
 
     <footer>
 
-        <img class="logo" width="100vh" src="img/logo.png" alt="4 Rodas">
+        <img class="logo ms-2" width="100vh" src="img/logo.png" alt="4 Rodas">
         
-        <p>By Paulo Ricardo <br> </p>
+        <p class="me-3 mt-3">By Paulo Ricardo</p>
 
     </footer>
     

@@ -6,49 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4 Rodas - Combustão</title>
     <link rel="shortcut icon" href="../img/motor.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     
-    <header>
+    <header class="container-fluid">
 
         <h2>CARROS A COMBUSTÃO</h2>
 
     </header>
 
-    <nav>
+    <nav class="navbar navbar-expand-lg">
         
-        <div class="links">
+        <div class="links m-auto w-50">
 
-            <a href="../">Home</a>
-            <a href="../html/combustao.html" target="_blank" rel="noopener noreferrer">Combustão</a>
-            <a href="../html/eletricos.html" target="_blank" rel="noopener noreferrer">Elétricos</a>
+            <a class="navbar-brand col-1" href="../">Home</a>
+            <a class="navbar-brand col-1" href="../html/combustao.html" target="_blank" rel="noopener noreferrer">Combustão</a>
+            <a class="navbar-brand col-1" href="../html/eletricos.html" target="_blank" rel="noopener noreferrer">Elétricos</a>
 
         </div>
 
     </nav>
 
-    <main class="sub">
+    <main class="container me-auto mt-lg-5 mt-sm-2 mb-lg-5 mb-sm-2 text-center">
 
         <p>
 
             No interior do motor de um carro é onde ocorre a queima do combustível, sendo muito bem regulada e utilizando o combustível corretamente. Não basta apenas que o combustível tenha um bom poder de explosão, ele também precisa de alguns aditivos que funcionam como antidetonante, a fim de não comprometer a vida útil das peças que compõem o motor. <br>
             Anteriormente, adicionava-se chumbo tetraetila, porém essa substância mostrou-se nociva ao meio ambiente e aos seres humanos. Atualmente, no Brasil, é adicionada uma pequena quantidade de álcool à gasolina com a mesma finalidade: servir de antidetonante. <br>
             Como dito anteriormente, as quantidades de combustível injetadas no motor são dosadas. E não é injetado somente combustível, mas também uma determinada quantidade de ar para que a combustão tenha êxito. O responsável por toda essa logística é o Carburador ou a Injeção Eletrônica.
-            Veículos mais datados utilizavam o Carburador para realizar essa mistura combustível-ar, porém atualmente os carros são produzidos com Injeção Eletrônica que se mostram mais eficientes, se comparadas ao seu antecessor. <br> <br>
-            <img class="inject" src="https://www.mecanicaexclusive.com.br/site/wp-content/uploads/2019/10/ie.jpg" alt="carburador de opala">
-            <img class="inject" src="https://a-static.mlcdn.com.br/1500x1500/carburador-opala-caravan-6cc-gasolina-dfv-228-100-novo-euro/mobiz/crbkpd00016-000001-pvml1/e0b791c3d54b5b96d231812b1fe66b15.jpeg" alt="injeção eletrônica"> <br> <br>
+            Veículos mais datados utilizavam o Carburador para realizar essa mistura combustível-ar, porém atualmente os carros são produzidos com Injeção Eletrônica que se mostram mais eficientes, se comparadas ao seu antecessor. <br> <br>       
+
+        </p>
+
+        <div class="col-lg-12 col-sm-12 text-sm-center">
+            <img class="inject col-lg-6 col-sm-10" src="https://www.mecanicaexclusive.com.br/site/wp-content/uploads/2019/10/ie.jpg" alt="carburador de opala">
+            <img class="inject col-lg-5 col-sm-9" src="https://a-static.mlcdn.com.br/1500x1500/carburador-opala-caravan-6cc-gasolina-dfv-228-100-novo-euro/mobiz/crbkpd00016-000001-pvml1/e0b791c3d54b5b96d231812b1fe66b15.jpeg" alt="injeção eletrônica"> <br> <br>
+        </div>
+
+        <p>
+
             A direita temos uma imagem de um carburador de Opala Caravan 6 cilindros.
             Ao lado da anterior, temos uma representação de uma Injeção Eletrônica. <br>
             A gasolina é uma mistura de vários hidrocarbonetos, que pode ser representada por C8H18.
             A estequiometria da combustão completa da gasolina se dá pela equação: <br> <br>
-
             <img src="../img/forms/combustao_completa.png" alt="fórmula combustao completa"> <br> <br>
-
             Com alguns cálculos é possível definir a proporção estequiométrica da mistura combustível-ar, que é igual a 15. Ou seja, são necessárias 15 unidades de ar para cada unidade de gasolina injetada. Contudo esse resultado é obtido considerando uma reação de combustão completa; normalmente os veículos utilizam uma mistura mais econômica, no sentido de consumo de combustível, o que admite um excesso de ar para aumentar a eficiência da combustão. <br>
             Na combustão dentro de um motor, deveria haver uma reação de oxidação, que combinaria o oxigênio e carbono, produzindo dióxido de carbono. Mas na prática não é isso o que acontece, já que o resultado disso é a geração de CO (monóxido de carbono), que é um poluente tóxico. <br>
             Além desses, há também outros produtos da combustão interna de um motor. Como: dióxido de enxofre, sulfeto de hidrogênio, alguns óxidos de nitrogênio, hidrocarbonetos, aldeídos e particulados.
-
 
         </p>
 
@@ -56,9 +63,9 @@
 
     <footer>
 
-        <img class="logo" width="100vh" src="../img/logo.png" alt="4 Rodas">
+        <img class="logo ms-2" width="100vh" src="../img/logo.png" alt="4 Rodas">
         
-        <p>By Paulo Ricardo <br> </p>
+        <p class="me-3 mt-3">By Paulo Ricardo <br> </p>
 
     </footer>
 
