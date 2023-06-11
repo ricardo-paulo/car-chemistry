@@ -46,17 +46,14 @@ nav {
     background-color: #1B1E1D;
     color: #E0E0E0;
     text-align: center;
-    justify-content: center;
 
 }
 
 .links {
 
-    min-width: 50%;
     border-style: solid;
     border-top-width: 0.1em;
     padding-top: 0.5em;
-    padding-bottom: 0.4em;
 
 }
 
@@ -64,62 +61,12 @@ nav {
 
     color: #E0E0E0;
     text-decoration: none;
-    padding-left: 0.3em;
-    border-left: solid 0.1em;
-    border-bottom: none 0em;
 
 }
 
 .links a:hover {
 
     color: #C2C2C2;
-
-}
-
-.links a:first-child {
-
-    border-left: none;
-
-}
-
-main {
-
-    margin: 3.5em 0;
-
-}
-
-main p {
-
-    margin: 1em 2em;
-    text-align: center;
-
-}
-
-main h2 {
-
-    font-size: 1.5em;
-
-}
-
-.combustao, .eletrico {
-
-    width: 50%;
-    text-align: center;
-    line-height: 1.8em;
-
-}
-
-li {
-
-    list-style-type: none;
-
-}
-
-.cars {
-
-    width: 60%;
-    margin-top: 8%;
-    border-radius: 1em;
 
 }
 
@@ -135,39 +82,5 @@ footer {
     left: 0;
     color: #FFFFFF;
     justify-content: space-between;
-
-} 
-
-footer p {
-
-    width: fit-content;
-    margin-right: 1em;
-
-}
-
-footer img {
-
-    margin-left: 1em;
-
-}
-
-.sub {
-
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.sub p {
-
-    text-align: start;
-
-}
-
-.inject {
-
-    width: 45%;
-    margin: 2%;
 
 }
